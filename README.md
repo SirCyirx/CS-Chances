@@ -3,13 +3,13 @@
 
 
 # Preview Updated
-[Video]()
+[Video](https://streamable.com/b7lj77)
 # Feature
 - Drag and drop
 - Open Source
 
 # Installation
-1. Download From [github]()
+1. Download From [github](https://github.com/SirCyirx/CS-Chances)
 2. Rename The Folder From CS-Chances-main to CS-Chances.
 3. Put The Folder In Your Resources Folder.
 5. Restart Your Server.
