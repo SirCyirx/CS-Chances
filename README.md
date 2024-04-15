@@ -2,7 +2,7 @@
 [Discord](https://discord.gg/YvThXdz59G)
 
 
-# Preview Updated
+# Preview
 [Video](https://streamable.com/b7lj77)
 # Feature
 - Drag and drop
@@ -10,7 +10,7 @@
 
 # Installation
 1. Download From [github](https://github.com/SirCyirx/CS-Chances)
-2. Rename The Folder From CS-Chances-main to CS-Chances.
+2. Rename The Folder From cs-chances-main to cs-chances.
 3. Put The Folder In Your Resources Folder.
 5. Restart Your Server.
 
@@ -20,7 +20,7 @@
 Put this into your cfg in this in order
 ```
 ensure 3dme
-ensure CS-Chances
+ensure cs-chances
 ```
 
 # Commands

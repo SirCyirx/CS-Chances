@@ -4,9 +4,9 @@ local function Showtext(source, resultmath)
 end
 
 RegisterCommand('roll', function(source, args, rawCommand)
-local minamount = args[1]
-local maxamount = args[2]
-local resultmath = math.random(minamount, maxamount)
+    local minamount = args[1]
+    local maxamount = args[2]
+    local resultmath = math.random(minamount, maxamount)
     Showtext(source, resultmath)
 end)
 
@@ -18,18 +18,18 @@ RegisterCommand('coinflip', function(source, rawCommand)
   elseif coinfilp == 2 then
     local resultmath = "Tails"
     Showtext(source, resultmath)
-  end
-  end)
-  
-  RegisterCommand('rps', function(source,args,rawCommand)
-    if args[1] == "rock" or args[1] == "Rock" or args[1] == "ROCK" then
-        local resultmath = "Rock"
-        Showtext(source, resultmath)
-    elseif args[1] == "paper" or args[1] == "Paper" or args[1] == "PAPER" then
-        local resultmath = "Paper"
-        Showtext(source, resultmath)
-    elseif args[1] == "scissors" or args[1] == "Scissors" or args[1] == "SCISSORS" then
-        local resultmath = "Scissors"
-        Showtext(source, resultmath)
     end
-    end)
+end)
+
+RegisterCommand('rps', function(source, args, rawCommand)
+  if args[1] == "1" then
+    local resultmath = "Rock"
+    Showtext(source, resultmath)
+  elseif args[1] == "2" then
+    local resultmath = "Paper"
+    Showtext(source, resultmath)
+  elseif args[1] == "3" then
+    local resultmath = "Scissors"
+    Showtext(source, resultmath)
+    end
+end)

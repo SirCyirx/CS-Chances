@@ -2,10 +2,10 @@ fx_version 'bodacious'
 game 'gta5'
 author 'Cyrix/Suro'
 description 'CS-Chances'
-version '1.0.1'
+version '1.2'
 
 client_scripts {
-'client/*.lua'
+    'client/*.lua'
 }
 
 server_scripts {
